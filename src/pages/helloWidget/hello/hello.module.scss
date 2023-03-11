@@ -1,0 +1,34 @@
+.test {
+  background-image: url("../media/wallpaper.webp");
+  background-size: cover;
+  height: 100vh;
+  // position: relative;
+
+  .helloIcon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+  }
+
+  .selectLabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .selectCountryIcon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "hello": [
+    {
+      "id": 0,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197518.png",
+      "country": "Turkey",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "TRY",
+      "dutyPrice": "0 EUR",
+      "freeDutyPrice": "150 EUR",
+      "vat": "KDV",
+      "vatRatio": "18",
+      "currentlyShip": true
+    },
+    {
+      "id": 1,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197374.png",
+      "country": "United Kingdom",
+      "isHasMinimumOrderText": true,
+      "minimumOrderText": "We do not currently ship to this country on orders below 135 GBP",
+      "isHasUniqueDutiesText": false,
+      "currency": "GBP",
+      "dutyPrice": "0 GBP",
+      "freeDutyPrice": "135 GBP",
+      "vat": "VAT",
+      "vatRatio": "20",
+      "currentlyShip": true
+    },
+    {
+      "id": 2,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197430.png",
+      "country": "Canada",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": true,
+      "uniqueDutiesText": "In Canada GST is 5% and due on any order above the following thresholds. You can spend up to 20 CAD and not incur any duty or GST on your order. For courier shipments originating in the United States or Mexico you can spend up to $150 CAD and not incur any duty and $40 CAD and not incur GST. In addition, provincial taxes apply based on your location.",
+      "currency": "CAD",
+      "vat": "GST",
+      "currentlyShip": true
+    },
+    {
+      "id": 3,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197560.png",
+      "country": "France",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "EUR",
+      "dutyPrice": "0 EUR",
+      "freeDutyPrice": "150 EUR",
+      "vat": "VAT",
+      "vatRatio": "20",
+      "currentlyShip": true
+    },
+    {
+      "id": 4,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197567.png",
+      "country": "Ireland",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "EUR",
+      "dutyPrice": "0 EUR",
+      "freeDutyPrice": "150 EUR",
+      "vat": "VAT",
+      "vatRatio": "23",
+      "currentlyShip": true
+    },
+    {
+      "id": 5,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197571.png",
+      "country": "Germany",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "EUR",
+      "dutyPrice": "0 EUR",
+      "freeDutyPrice": "150 EUR",
+      "vat": "VAT",
+      "vatRatio": "19",
+      "currentlyShip": true
+    },
+    {
+      "id": 6,
+      "flag": "https://cdn-icons-png.flaticon.com/512/3909/3909361.png",
+      "country": "Portugal",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "EUR",
+      "dutyPrice": "0 EUR",
+      "freeDutyPrice": "150 EUR",
+      "vat": "VAT",
+      "vatRatio": "23",
+      "currentlyShip": true
+    },
+    {
+      "id": 7,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197496.png",
+      "country": "Singapore",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "GSD",
+      "dutyPrice": "400 GSD",
+      "freeDutyPrice": "400 GSD",
+      "vat": "GST",
+      "vatRatio": "8",
+      "currentlyShip": true
+    },
+    {
+      "id": 8,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197484.png",
+      "country": "United States",
+      "isHasMinimumOrderText": false,
+      "isHasUniqueDutiesText": false,
+      "currency": "USD",
+      "dutyPrice": "800 USD",
+      "freeDutyPrice": "800 USD",
+      "vat": "VAT",
+      "vatRatio": "0",
+      "currentlyShip": true
+    },
+    {
+      "id": 9,
+      "flag": "https://cdn-icons-png.flaticon.com/512/197/197628.png",
+      "country": "Uganda",
+      "currentlyShip": false
+    }
+  ]
+}

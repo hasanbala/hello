@@ -1,0 +1,119 @@
+.hello {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: (translate(-50%, -50%));
+  z-index: 2;
+  border-radius: 10px;
+  overflow: hidden;
+  perspective: 1px;
+  width: 400px;
+
+  .header {
+    position: relative;
+
+    .container {
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      background-color: #0d0d0d;
+      color: #fff;
+
+      .closeIcon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    .countries {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+
+      .countryIcon {
+        width: 48px;
+        height: 48px;
+      }
+
+      .select {
+        width: 250px;
+
+        // .selectLabel {
+        //   display: flex;
+        //   justify-content: space-between;
+        //   align-items: center;
+
+        //   .selectCountryIcon {
+        //     width: 24px;
+        //     height: 24px;
+        //   }
+        // }
+      }
+    }
+
+    .text {
+      color: #000;
+
+      & > p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      .caption {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .subCaption {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px 0px;
+      }
+
+      .minimumOrderText {
+        font-weight: 700;
+        margin: 10px 0px;
+      }
+
+      .lastText {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .bottom {
+    padding: 5px;
+    background-color: #fff;
+    border-top: 1px solid #f0f0f0;
+    user-select: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .logoEmarkable {
+      width: 120px;
+      height: 48px;
+    }
+  }
+}
